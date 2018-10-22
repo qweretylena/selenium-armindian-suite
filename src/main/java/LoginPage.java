@@ -17,7 +17,7 @@ public class LoginPage {
         driver.findElement(signInButton).click();
     }
     public boolean isErrorMessageDisplayed() {
-        return driver.findElement (isErrorMessageDisplayed);
+        return driver.findElement (errorMessage).isDisplayed();
     }
 
 }
